@@ -26,7 +26,7 @@ Este proyecto es una plataforma de comercio electrónico dedicada a la venta de 
 === TECNOLOGÍAS IMPLEMENTADAS ===
 
 - PHP
-- Laravel
+- Laravel 11
 - Blade
 
 Gracias por revisar este documento. ¡Esperamos que este proyecto sea de utilidad y cumpla con las expectativas!
