@@ -1,0 +1,31 @@
+.table-header-highlight {
+    background-color: #cce5ff; /* Fondo azul claro */
+    color: #004085;          /* Texto azul oscuro */
+    font-weight: bold;       /* Texto en negrita */
+}
+/* Estilo para los botones de compra */
+.btn-success {
+    font-size: 1.2rem; /* Aumenta el tamaño del texto */
+    font-weight: bold; /* Resalta el texto */
+    padding: 10px 20px; /* Agrega más espacio alrededor del texto */
+    text-align: center; /* Asegura que el texto esté centrado */
+    display: flex;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Agrega una transición suave */
+}
+
+.btn-success:hover {
+    background-color: #28a745; /* Resalta el color del botón en hover */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón en hover */
+}
+
+/* Sombra suave para el botón */
+.btn-success {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sombra al hacer hover en el botón */
+.btn-success:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,32 @@
+=== INFORMACIÓN DEL GRUPO ===
+
+Integrantes del Grupo:
+
+- Romero, Sandro Sebastián
+- López Machado, Víctor Román
+- Navarro, Juan Alberto
+
+=== INFORMACIÓN DEL CURSO ===
+
+Este proyecto fue desarrollado como parte del tercer módulo del curso de programación del programa de capacitación **Talentos Digitales**.
+
+Organizado por:
+- Gobierno de Corrientes
+- TelCo Corrientes
+- Universidad Nacional del Nordeste (UNNE)
+- Polo IT Corrientes
+
+=== INFORMACIÓN DEL PROYECTO ===
+
+Nombre del proyecto: **E-commerce de Control de Asistencia**
+
+Descripción:
+Este proyecto es una plataforma de comercio electrónico dedicada a la venta de productos para el control de asistencia. Está dirigido a organizaciones públicas y privadas que buscan soluciones tecnológicas eficientes.
+
+=== TECNOLOGÍAS IMPLEMENTADAS ===
+
+- PHP
+- Laravel
+- Blade
+
+Gracias por revisar este documento. ¡Esperamos que este proyecto sea de utilidad y cumpla con las expectativas!
