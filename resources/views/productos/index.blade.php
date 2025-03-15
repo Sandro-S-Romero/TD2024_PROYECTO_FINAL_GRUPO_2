@@ -29,15 +29,16 @@
 
                             <!-- Verificar si el usuario está autenticado -->
                             @auth
-                                <!-- Contenedor para los botones -->
-                                <div class="d-flex justify-content-between mt-3">
+                                <!-- Contenedor para los botones en columna -->
+                                <div class="d-flex flex-column mt-3">
                                     <!-- Formulario para agregar al carrito -->
-                                    <form action="{{ route('carrito.agregar', $producto->id) }}" method="POST" class="w-100 me-2">
+                                    <form action="{{ route('carrito.agregar', $producto->id) }}" method="POST" class="w-100 mb-2">
                                         @csrf
                                         <button type="submit" class="btn btn-primary w-100 shadow-sm square-btn">Añadir al carrito</button>
                                     </form>
 
-                                    <a href="{{ route('productos.venta', $producto->id) }}" class="btn btn-success w-100 ms-2 shadow-sm square-btn">Comprar</a>
+                                    <!-- Botón de comprar -->
+                                    <a href="{{ route('productos.venta', $producto->id) }}" class="btn btn-success w-100 shadow-sm square-btn">Comprar</a>
                                 </div>
                             @else
                                 <!-- Si no está autenticado, muestra el botón para ir al login -->

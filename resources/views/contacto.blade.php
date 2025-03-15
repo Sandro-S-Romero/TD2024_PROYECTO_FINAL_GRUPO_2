@@ -9,7 +9,7 @@
             <div class="col-md-6">
                 <div class="card shadow-lg border-light">
                     <div class="card-body">
-                        <h3 class="card-title text-center mb-4">Detalles de Contacto</h3>
+                        <h3 class="card-title text-center mb-4">Contacto directo con el lider del grupo</h3>
                         
                         <!-- Información de contacto -->
                         <div class="mb-3">
