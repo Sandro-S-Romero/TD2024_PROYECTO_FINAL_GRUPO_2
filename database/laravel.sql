@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-12-2024 a las 13:08:47
+-- Tiempo de generación: 16-03-2025 a las 00:38:23
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -65,17 +65,8 @@ CREATE TABLE `carritos` (
 --
 
 INSERT INTO `carritos` (`id`, `user_id`, `producto_id`, `cantidad`, `created_at`, `updated_at`) VALUES
-(16, 1, 12, 3, '2024-12-16 07:07:37', '2024-12-16 08:42:57'),
-(17, 1, 16, 1, '2024-12-16 07:08:03', '2024-12-16 07:08:03'),
-(19, 4, 11, 1, '2024-12-16 07:45:28', '2024-12-16 07:45:28'),
-(20, 4, 14, 1, '2024-12-16 07:45:38', '2024-12-16 07:45:38'),
-(21, 3, 15, 1, '2024-12-16 07:50:39', '2024-12-16 07:50:39'),
-(22, 3, 17, 1, '2024-12-16 07:50:54', '2024-12-16 07:50:54'),
-(23, 1, 11, 1, '2024-12-16 08:10:45', '2024-12-16 08:10:45'),
-(24, 1, 15, 1, '2024-12-16 08:42:26', '2024-12-16 08:42:26'),
-(25, 3, 16, 2, '2024-12-16 08:53:27', '2024-12-16 08:55:27'),
-(26, 2, 12, 2, '2024-12-16 13:05:43', '2024-12-16 13:06:14'),
-(27, 2, 11, 1, '2024-12-16 13:32:45', '2024-12-16 13:32:45');
+(29, 1, 28, 1, '2025-03-16 02:03:43', '2025-03-16 02:03:43'),
+(30, 2, 32, 1, '2025-03-16 02:10:44', '2025-03-16 02:10:44');
 
 -- --------------------------------------------------------
 
@@ -240,16 +231,15 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `description`, `codigo`, `price`, `categoria_id`, `image`, `name`, `created_at`, `updated_at`) VALUES
-(11, 'TF1700 ID es una innovadora solución para control de accesos. Es ideal para pequeñas, medianas y grandes empresas.', NULL, 235000.00, NULL, 'productos/IE0T9hyJMaAeHnUQX6kqXnfBF2RhISxWxIkMyQxT.jpg', 'Control de asistencia ZK-TF1700 ID', '2024-12-16 06:48:31', '2024-12-16 06:48:31'),
-(12, 'Es una innovadora solución para control de personal y accesos de su empresa', NULL, 450000.00, NULL, 'productos/xK9vJuGQMvTj3z0SSo3sezcx4vnjCOeDuC9HoSCL.jpg', 'Control de asistencia K20', '2024-12-16 06:50:17', '2024-12-16 06:50:17'),
-(14, 'K40 es un terminal de tiempo & asistencia y control de acessos simple con pantalla TFT de 2.8 pulgadas.', NULL, 340000.00, NULL, 'productos/iTnn01jcSYQZK2C7n9MW31Gv1z3OrbHW00lzVsYB.jpg', 'control asistencia ZK-K40', '2024-12-16 06:54:30', '2024-12-16 06:54:30'),
-(15, 'Equipo de control de asistencia modelo LX14 de la marca ZkTeco tiene la capacidad de mostrar reportes en su propia pantalla.', NULL, 260000.00, NULL, 'productos/xDw1wMS8noA1S9bZuOoZxhyAArylbs8tg8h6E5TO.jpg', 'Control de Asistencia LX 14', '2024-12-16 06:56:10', '2024-12-16 06:56:10'),
-(16, 'Equipo con pantalla mas grande, y mayor capacidad, Capacidad de huellas digitales: 8000 plantillas, Capacidad de la transacción: 200,000.', NULL, 560000.00, NULL, 'productos/uZamcoZoK3onrLoBvQkT6fXnQZnKrI7FiCh3WdpH.jpg', 'Control de asistencia - iClock 360', '2024-12-16 06:58:20', '2024-12-16 06:58:20'),
-(17, 'Control de Acceso y Asistencia por Huella Digital y Tarjeta de Proximidad', NULL, 470000.00, NULL, 'productos/i6FSK405Kw9LGSaaSHyXBPTHnczdShSGgYvkIM6r.jpg', 'Control de asistencia iClock700', '2024-12-16 07:00:35', '2024-12-16 07:00:35'),
-(18, 'Terminal Multi-Biométrico de Asistencia al Tiempo y Control de Acceso', NULL, 630000.00, NULL, 'productos/QpOodH7kAu5eblRQ7z0vIwZzgqG2G25mHdmhPOqB.jpg', 'Control de asistencia uface800', '2024-12-16 07:02:32', '2024-12-16 07:02:32'),
-(19, 'LECTOR DE HUELLA DIGITAL + PIN + T. PROXIMIDAD PARA CONTROL DE ACCESO Y ASISTENCIA C/FUENTE', NULL, 870000.00, NULL, 'productos/dr9mWtfNgLHV6PBUKgmmKvy6giXviK80v2iXJpNY.png', 'Control de asistencia ZKSOFTWARE INO1A/USB/ID', '2024-12-16 07:05:32', '2024-12-16 07:05:32'),
-(20, 'DS100 es una innovadora solución para control de tiempos y asistencias del personal con tecnologia de dual de huella digital.', NULL, 970000.00, NULL, 'productos/vLKxJVZ6TrrHWlIJsbfMw2DF6Dc8lFdFAFitdxiY.jpg', 'Control de asistencia ZK-DS100 ID', '2024-12-16 07:07:23', '2024-12-16 07:07:23'),
-(21, 'Tk100-c es un innovador lector de huellas digitales biométrico para aplicaciones de presencia, que ofrece un rendimiento sin precedentes utilizando un algoritmo avanzado para la confiabilidad, precisión y velocidad de juego excelente.', NULL, 650000.00, NULL, 'productos/GEaCaX45GUdV1FmgwFq3doexxKGN8btxmr5GpFUV.png', 'Control de Asistencia ZK SOFTWARE TK-100-C', '2024-12-16 08:08:46', '2024-12-16 08:08:46');
+(25, 'Control de Acceso y Asistencia por Huella Digital y Tarjeta de Proximidad', NULL, 250000.00, NULL, 'productos/Bv4ZEF4o98QB2jHoXJbVYLhrpvB3mJEjGG7fdo3A.jpg', 'Control de asistencia iClock700', '2025-03-16 00:50:08', '2025-03-16 00:50:08'),
+(26, 'Es una innovadora solución para control de personal y accesos de su empresa', NULL, 230000.00, NULL, 'productos/yrgel1o2IrmCoAjpIqKB7iUTAX8JQ8DVSDbTcaqE.jpg', 'Control de asistencia K20', '2025-03-16 00:51:34', '2025-03-16 00:51:34'),
+(27, 'Equipo de control de asistencia modelo LX14 de la marca ZkTeco tiene la capacidad de mostrar reportes en su propia pantalla', NULL, 180000.00, NULL, 'productos/nK9LaKLVm1takuF9bHgC1wm8i61jJ12VJIkdMAm2.jpg', 'Control de asistencia LX14', '2025-03-16 00:53:39', '2025-03-16 00:53:39'),
+(28, 'Es una innovadora solución para control de personal.', NULL, 280000.00, NULL, 'productos/dzl2QAy7Dr2bPyBosUGWqQmxJalBrplRgOPjhJoQ.png', 'Control de asistencia ZL-i01', '2025-03-16 00:56:00', '2025-03-16 00:56:00'),
+(29, 'TF1700 ID es una innovadora solución para control de accesos. Apto para intemperie y resistente al agua.', NULL, 170000.00, NULL, 'productos/8S8cugYetpSsA4YWZhKrVy2Jv1dQrKy7i2eHRTZR.jpg', 'Control de asistencia ZK-TP1700', '2025-03-16 00:58:55', '2025-03-16 00:58:55'),
+(30, 'DS100 es una innovadora solución para control de tiempos y asistencias del personal con tecnología de dual de huella digital.', NULL, 310000.00, NULL, 'productos/fkT2dKZkHX1TeDgzfF7qJevdvc3s1zbvn6GpFxXi.jpg', 'Control de asistencia ZK-DS100', '2025-03-16 01:01:07', '2025-03-16 01:01:07'),
+(31, 'Equipo con pantalla mas grande, y mayor capacidad, Capacidad de huellas digitales: 8000 plantillas, Capacidad de la transacción: 200000', NULL, 305000.00, NULL, 'productos/byoIEBcEHs88OtiV4KrgF7QSlM3qYZ7Vgr1rIclx.jpg', 'Control de asistencia iClock360', '2025-03-16 01:03:39', '2025-03-16 01:03:39'),
+(32, 'Terminal Multi-Biométrico de Asistencia al Tiempo y Control de Acceso', NULL, 275000.00, NULL, 'productos/l5w15dHXb7ZHbZJ4k2S1JxfwuhvAjYr7DkSuyIKt.jpg', 'Control de asistencia Uface800', '2025-03-16 01:05:34', '2025-03-16 01:05:34'),
+(33, 'Control de asistencia moderno', NULL, 265000.00, NULL, 'productos/JuvvfHaPaAvwZN0X1OrkMSTAVKUVn4QBkmFmKfrL.png', 'Control de asistencia ZK-TK100-C', '2025-03-16 01:07:59', '2025-03-16 01:07:59');
 
 -- --------------------------------------------------------
 
@@ -271,8 +261,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('tcpJUL6P3DkCy3tW6dLDcSJBWOe4bQA9U2C2FV4n', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiWDlHbmtnTUdDR01USm1nb2RnZm1hWldVQ3h1dXRaM2VUd0RqM1JnQSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1734345309),
-('YGyQdYgcKtdrOrMXi3ghMAp8kzaNQqJ6X0aMHu3s', 1, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiU3NrbFp1T3hCcGc5UGk2M1BtUWQwUWJWV3lUZDE0bGNCYzdCdTBLRiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDU6Imh0dHA6Ly9sb2NhbGhvc3QvTGFyYXZlbC9sYXJhdmVsZ3J1cG8yL3B1YmxpYyI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czo0OiJhdXRoIjthOjE6e3M6MjE6InBhc3N3b3JkX2NvbmZpcm1lZF9hdCI7aToxNzM0MzUwMDMyO319', 1734350033);
+('3r8tPGUnBtFQQRVz3OoZCrSPAc2paIGacPJz816w', 2, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiSnR5eHhDYkY1ZDdmYkp3MlU1Zzc3bDhFN2d6RDd6b3V6Wk5Ic2lxSiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NTU6Imh0dHA6Ly9sb2NhbGhvc3QvTGFyYXZlbC9sYXJhdmVsZ3J1cG8yL3B1YmxpYy9wcm9kdWN0b3MiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToyO3M6NDoiYXV0aCI7YToxOntzOjIxOiJwYXNzd29yZF9jb25maXJtZWRfYXQiO2k6MTc0MjA4MDIzMTt9fQ==', 1742080248);
 
 -- --------------------------------------------------------
 
@@ -299,7 +288,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `is_admin`, `role`) VALUES
 (1, 'carlos', 'carlos@gmail.com', NULL, '$2y$12$Qebhr32HNsfVzeT7r8K3/OpmPC0LXtgyh4Zs4ujMhXIu59H4sq5cW', NULL, '2024-12-13 04:10:49', '2024-12-13 19:17:16', 1, 'admin'),
-(2, 'pablo', 'pablo@gmail.com', NULL, '$2y$12$zJQiPyBnqIoV.I/OY/LxreDXuEZxIwhMWlkBnTU0zgcgPjMrzpJC.', NULL, '2024-12-13 19:23:51', '2024-12-13 19:23:51', 0, 'user'),
+(2, 'pablo', 'pablo@gmail.com', NULL, '$2y$12$zJQiPyBnqIoV.I/OY/LxreDXuEZxIwhMWlkBnTU0zgcgPjMrzpJC.', 'EMMYtfIjyq3cGGaTO3qzDxSZfKkDIY4fH4AYY7E687fABmdhBG62ZcQfwGt3', '2024-12-13 19:23:51', '2024-12-13 19:23:51', 0, 'user'),
 (3, 'Sofia', 'sofia@gmail.com', NULL, '$2y$12$uhns7Wd4kKGdKczVQ9KXKuCVrkPn8MwRdrcIOsef7N.hIVjVHGHgS', NULL, '2024-12-16 07:31:39', '2024-12-16 07:31:39', 0, 'user'),
 (4, 'Hernan', 'hernan@gmail.com', NULL, '$2y$12$p4zDGg34JD7zb5YHrdVg5.oQ/TOfy2tEqylzkMJP2b.0hyz.Q1GnC', NULL, '2024-12-16 07:44:32', '2024-12-16 07:44:32', 0, 'user'),
 (5, 'andres', 'andres@gmail.com', NULL, '$2y$12$Ui0SL590xSv9zSV1APuYAuby/lspGMZ.TNJsR.jK5T2ZWG3TXtNxK', NULL, '2024-12-16 13:52:21', '2024-12-16 13:52:21', 0, 'user');
@@ -413,7 +402,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `carritos`
 --
 ALTER TABLE `carritos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT de la tabla `carrito_cabeceras`
@@ -455,7 +444,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
